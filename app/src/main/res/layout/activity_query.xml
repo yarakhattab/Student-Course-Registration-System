@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <Button
+            android:id="@+id/btnAllStudentsWithCourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All Students and Courses" />
+
+        <Button
+            android:id="@+id/btnStudentsWith2Courses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Students with >2 Courses"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnCoursesWithNoStudents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Courses with No Students"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnMostPopularCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Most Popular Course"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/etStudentScheduleId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Student ID"
+            android:inputType="number"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnStudentSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Student Schedule"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvQueryResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Results will appear here"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
